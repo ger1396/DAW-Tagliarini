@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulario contacto</h2>
+    <form action="">
+        <label for="nom">nombre completo</label> <br>
+        </button><input id="nom" name="in_nombre" type="text"> <br>
+        <label for="sexo">sexo</label> <br>
+        <input type="radio" id="masc" name="sexo" value="Masculino"> <label for="masc">Masculino</label> <br>
+        <input type="radio" id="fem" name="sexo" value="femenino"> <label for="fem">Femenino</label><br>
+        <label for="doc">Tipo y nro de Documento</label>
+        <select name="doc" id="tipo_doc">
+            <option value="dni">DNI</option>
+            <option value="cuit">CUIT</option>
+        </select>
+        <input type="tel" id="nro_doc" name="doc"><br>
+        <label for="f_nac">Fecha de nacimiento</label>
+        <input type="date" id="fecha_nac" name="f_nac"><br>
+        <label for="mje">Deje su mensaje</label><br>
+        <textarea name="mje" id="mensaje" rows="10" cols="30"></textarea><br>
+        <button type="submit" onclick="alert('consulta enviada')">Enviar</button>
+    </form>
+</body>
+</html>
