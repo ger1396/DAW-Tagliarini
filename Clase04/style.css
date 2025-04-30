@@ -1,0 +1,34 @@
+.titulo{
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    line-height: 52px;
+    color: #000A2F;
+    margin-bottom: 9px;
+}
+
+.bajada{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    line-height: 30px;
+    color: #292933;
+    margin-bottom: 24px;
+}
+
+.cuerpo{
+    font-size: 19px;
+    font-family: "Noto Serif", serif;
+    line-height: 30px;
+    color: #292933;
+    margin-bottom: 34px;
+}
+
+.cuerpo>h2{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    line-height: 1;
+    color: #000A2F;
+    margin-bottom: 20px;
+}
